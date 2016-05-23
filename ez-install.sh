@@ -1,6 +1,6 @@
 #!/bin/bash
-wget http://cdn.finlaydag33k.nl/hyperboria.sh -O /etc/init.d/hyperboria
-chmod +x /etc/init.d/hyperboria
+wget https://raw.githubusercontent.com/FinlayDaG33k/cjdns-installer/master/cjdns.sh -O /etc/init.d/cjdns
+chmod +x /etc/init.d/cjdns
 sudo apt-get update
 sudo apt-get install -y systemd-services
-sudo /etc/init.d/hyperboria install
+sudo /etc/init.d/cjdnsa install
